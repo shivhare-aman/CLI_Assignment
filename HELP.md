@@ -1,7 +1,7 @@
 # Read Me First
 The following was discovered as part of building this project:
 
-* The original package name 'com.assignment.CLI-Based' is invalid and this project uses 'com.assignment.CLI_Based' instead.
+* The original package name 'com.image-processing.cli' is invalid and this project uses 'com.image_processing.cli' instead.
 
 # Getting Started
 

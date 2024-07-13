@@ -8,11 +8,11 @@
 		<version>3.3.1</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.assignment</groupId>
-	<artifactId>CLI-Based</artifactId>
+	<groupId>com.image-processing</groupId>
+	<artifactId>cli</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>CLI-Based</name>
-	<description>CLI based Assignment.</description>
+	<name>cli</name>
+	<description>Image Processing App</description>
 	<url/>
 	<licenses>
 		<license/>
