@@ -3,10 +3,10 @@ package com.image_processing.cli.factory;
 import com.image_processing.cli.command.*;
 import com.image_processing.cli.strategy.AIServiceProvider1;
 import com.image_processing.cli.strategy.BGRemovalProvider1;
-import com.image_processing.cli.utils.AwsS3Writer;
-import com.image_processing.cli.utils.DBWriter;
-import com.image_processing.cli.utils.GoogleDriveWriter;
-import com.image_processing.cli.utils.Writer;
+import com.image_processing.cli.adv_features.storage.AwsS3Writer;
+import com.image_processing.cli.adv_features.storage.DBWriter;
+import com.image_processing.cli.adv_features.storage.GoogleDriveWriter;
+import com.image_processing.cli.adv_features.storage.Writer;
 
 public class OperationFactory {
     public static Command getCommand(String getCommandValue) {

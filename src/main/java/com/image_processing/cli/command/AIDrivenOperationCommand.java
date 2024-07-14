@@ -1,6 +1,6 @@
 package com.image_processing.cli.command;
 
-import com.image_processing.cli.observer.ConcreteMonitor;
+import com.image_processing.cli.observer.DataSource;
 import com.image_processing.cli.strategy.ServiceProvider;
 
 public class AIDrivenOperationCommand implements Command {
@@ -12,8 +12,8 @@ public class AIDrivenOperationCommand implements Command {
     }
 
     @Override
-    public void execute(ConcreteMonitor concreteMonitor) {
+    public void execute(DataSource dataSource) {
         serviceProvider.executeService();
-        concreteMonitor.updateObserver();
+        dataSource.setValue(5);
     }
 }

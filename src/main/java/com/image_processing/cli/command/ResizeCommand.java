@@ -1,11 +1,11 @@
 package com.image_processing.cli.command;
 
-import com.image_processing.cli.observer.ConcreteMonitor;
+import com.image_processing.cli.observer.DataSource;
 
 public class ResizeCommand implements Command {
     @Override
-    public void execute(ConcreteMonitor concreteMonitor) {
+    public void execute(DataSource dataSource) {
         System.out.println("Logic to resize the command here....");
-        concreteMonitor.updateObserver();
+        dataSource.setValue(1);
     }
 }

@@ -1,4 +1,6 @@
-package com.image_processing.cli.utils;
+package com.image_processing.cli.adv_features.storage;
+
+import com.image_processing.cli.utils.Logger;
 
 public class GoogleDriveWriter implements Writer {
     @Override
